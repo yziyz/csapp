@@ -22,8 +22,11 @@ int bool_xor(int x, int y) {
 }
 
 int main() {
-    int x = 1, y = 0;
-    printf("1 or  0 is %d\n", bool_or(x, y));
-    printf("1 xor 0 is %d\n", bool_xor(x, y));
+    printf("1 or  0 is %d\n", bool_or(1, 0));
+    printf("1 or  1 is %d\n", bool_or(1, 1));
+    printf("0 or  0 is %d\n", bool_or(0, 0));
+    printf("1 xor 0 is %d\n", bool_xor(1, 0));
+    printf("1 xor 1 is %d\n", bool_xor(1, 1));
+    printf("0 xor 0 is %d\n", bool_xor(0, 0));
     return 0;
 }
